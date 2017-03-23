@@ -1,11 +1,15 @@
 /* Attribute Selectors ------------- */
 
-form[class="form-contact"] {
+.form-contact {
     padding: 20px 24px;
-    background: #74f7f8;
+    background: #f4f7f8;
 }
 
-div[id="container"] {
+#container {
     max-width: 500px;
     margin: auto;
+}
+
+input [type="text"] {
+    background: #fdfee6;
 }
